@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'RalewayBold';
-    src: url('/fonts/Raleway-Bold.ttf') format('truetype'); 
+    font-family: 'RalewayBlack';
+    src: url('/fonts/Raleway-Black.ttf') format('truetype'); 
   
 }
 
@@ -43,8 +43,8 @@
 
 .pokemonName {
     text-align: center;
-    font-size: 14px;
-    font-family: RalewayBold;
+    font-size: 12px;
+    font-family: RalewayBlack;
     
 }
 

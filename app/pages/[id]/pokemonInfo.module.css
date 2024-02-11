@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'RalewayBlack';
+    src: url('/fonts/Raleway-Black.ttf') format('truetype'); 
+    
+}
+
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('/fonts/Raleway-Bold.ttf') format('truetype'); 
+    
+}
+
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('/fonts/Raleway-Regular.ttf') format('truetype'); 
+    
+}
+
+.background{
+    background-image: linear-gradient(to right, #FBFFC9F0, #EBFF00F0) ; 
+    width: 100vw;
+    padding: 0;
+    padding-bottom: 2rem;
+    
+}
+
+.top{
+    background-color: black ; 
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    border-bottom-left-radius: 120% 50%;
+    border-bottom-right-radius: 120% 50%;
+    overflow: hidden;
+}
+
+.backButton{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.backButton img{
+    width: 40px;
+    height: auto;
+}
+
+.pokemonIcon{
+    display:flex;
+    justify-content: center;
+}
+
+.pokemonIcon img {
+    width: 350px;
+}
+
+.editButton{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+.editButton button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 50px;
+}
+
+.pokemonName {
+    display: flex;
+    justify-content: center;
+    font-family: RalewayBlack;
+    font-size: 26px;
+}
+
+.pokemonName h1{
+    margin: 0;
+    padding: 0;
+}
+
+.types{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: RalewayBold;
+}
+
+.label{
+    margin: 15px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+    
+}
+
+.items{
+    display: flex;
+    margin: 5px 10px;
+    
+    
+}
+
+.items h3{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.abilities{
+    display: flex;
+    font-size: 14px;
+    font-family: RalewayBold;
+ 
+}
+
+.title{
+    font-family: RalewayBold;
+    margin: 0 10px;
+}
+
+.title h3{
+
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.statBox {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: RalewayRegular;
+    
+}
+
+.statBox b{
+    font-family: RalewayBold;
+}
+
+.statBox button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 50px;
+}
+
+.statBox h3{
+    margin: 25px;
+}

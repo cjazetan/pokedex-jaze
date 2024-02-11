@@ -1,12 +1,20 @@
 import React from 'react'
 import style from './AddPokemon.module.css'
 
-const AddPokemon = () => {
+const AddPokemon = ({ onAdd }) => {
+  const handleClick = () => {
+    const pokemonName = window.prompt('Enter the name or ID of the Pokemon: ');
+    if(pokemonName) {
+      onAdd(pokemonName.trim());
+    }
+  }
+
+
   return (
     <div className = {style.addButton}>
-        <button>Add Pokemon</button>
+        <button onClick= {handleClick}>Add Pokemon</button>
     </div>
   )
 }
 
-export default AddPokemon
+export default AddPokemon;

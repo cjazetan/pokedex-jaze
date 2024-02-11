@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'RalewayBold';
-    src: url('/fonts/Raleway-Bold.ttf') format('truetype'); 
+    font-family: 'RalewayBlack';
+    src: url('/fonts/Raleway-Black.ttf') format('truetype'); 
     
 }
 
@@ -19,7 +19,7 @@
 .header h1{
     margin: 0px;
     font-size: 48px;
-    font-family:RalewayBold;
+    font-family:RalewayBlack;
 }
 
 .header p{
